@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+
+
+.btn-container{
+    display: grid;
+    grid-template-columns: 50px 50px;
+    gap: 20px 80px;
+    justify-content: center;
+}
+.btn{
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+.red
+{
+    background-color: red;
+}
+
+.red:hover{
+    box-shadow: 0px 4px 10px red ;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.yellow:hover{
+    box-shadow: 0px 4px 10px yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.green:hover{
+    box-shadow: 0px 4px 10px green;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.purple:hover{
+    box-shadow: 0px 4px 10px purple;
+}
+
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+}
